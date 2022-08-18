@@ -1,0 +1,27 @@
+{
+  "name": "Lyrics Finder",
+  "description": "Find your favorite lyrics!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs", "activeTab"],
+  "action": {
+    "default_title": "Lyrics Finder",
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "/images/song.png",
+      "32": "/images/song.png",
+      "48": "/images/song.png",
+      "128": "/images/song.png"
+    }
+  },
+  "icons": {
+    "16": "/images/song.png",
+    "32": "/images/song.png",
+    "48": "/images/song.png",
+    "128": "/images/song.png"
+  }
+  
+}
